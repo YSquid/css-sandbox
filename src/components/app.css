@@ -1,0 +1,20 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+    background: rgb(245, 239, 239);
+    height: 100vh;
+
+}
+
+#item1 {
+    background: red;
+}
+
+#item2 {
+    background: green;
+}
+
+#item3 {
+    background: blue;
+}
