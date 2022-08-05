@@ -1,7 +1,7 @@
 .grid__container {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: [row1] 33% [row2] 33% [row3] 33%;
+    grid-template-columns: repeat(4, 25%); /*repeat syntax - 4 column lines each at 25% [25,50,75,100]*/
+    grid-template-rows: [row1] 33% [row2] 33% [row3] 33%; /*explicit syntax - 3 lines named in [] each at 33% of the vertical height of the partent element*/
     background: rgb(245, 239, 239);
     height: 100vh;
 
